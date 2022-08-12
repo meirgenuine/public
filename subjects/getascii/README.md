@@ -4,9 +4,10 @@
 
 Write a program that takes a character as an argument, and displays its ASCII followed by a newline.
 
-If the Inputs is more than one character , returns a newline.
-If the number of arguments is less than 1, returns a newline.
-If the number of arguments is more than 1, returns a newline.
+- If the Inputs is more than one character , returns a newline `\n`.
+- If the number of arguments is less than 1, returns a newline `\n`.
+- If the number of arguments is more than 1, returns a newline `\n`.
+- If the the input is a non ascii character, returns a newline `\n`.
 
 ### Usage
 
