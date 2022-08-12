@@ -1,16 +1,15 @@
-## GetAscii
+### getascii
 
 ### Instructions
 
-Write a program that takes a character as an arguments, and displays its ascii followed by a newline.
+Write a program that takes a character as an argument, and displays its ASCII followed by a newline.
 
-- If the Inputs is more than one character , returns a newline.
-- If the number of arguments is less than 1, returns a newline.
-- If the number of arguments is more than 1, returns a newline.
+If the Inputs is more than one character , returns a newline.
+If the number of arguments is less than 1, returns a newline.
+If the number of arguments is more than 1, returns a newline.
 
 ### Usage
 
-```
 $ go run . "W" | cat -e
 87$
 $ go run . ">" | cat -e
@@ -25,4 +24,3 @@ $ go run . "Stay Home!" | cat -e
 $
 $ go run .
 $
-```
