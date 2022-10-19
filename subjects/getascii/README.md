@@ -15,8 +15,8 @@ Write a program that takes a character as an argument, and displays the correspo
 $ go run . "W" | cat -e
 87$
 $
-$ go run . ">" | cat -e
-62$
+$ go run . "W" "Q" "T" | cat -e
+$
 $
 $ go run . "^" | cat -e
 94$
