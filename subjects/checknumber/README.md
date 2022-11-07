@@ -26,19 +26,16 @@ import (
 )
 
 func main() {
-	test := []string{"Hello", "Hello1"}
-	fmt.Println(piscine.CheckNumber(test))
+	fmt.Println(piscine.CheckNumber("Hello"))
+	fmt.Println(piscine.CheckNumber("Hello1"))
 }
 ```
 
 And its output:
 
 ```console
-$ go run . "Hello"
+$ go run .
 false
-$
-
-$ go run . "Hello1"
 true
 $
 ```
